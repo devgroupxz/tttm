@@ -1,8 +1,7 @@
 package model
 
-type Task struct {
+type Project struct {
 	ID          int
-	projectID   int
 	Name        string
 	Description string
 }
